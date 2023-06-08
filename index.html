@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="group">
+    <form method="POST" action="formulario.php">
+        <h2><b><u>Formulario de Registro</u><b></b></h2>
+        <label for="nombre">Nombre<span>(Requerido)</span></label>
+        <input type="text" name="nombre" class="form-imput" required />
+
+        <label for="apellido">Apellido<span>(Requerido)</span></label>
+        <input type="text" name="apellido" class="form-imput" required />
+
+        <label for="email">Email<span>(Requerido)</span></label>
+        <input type="text" name="email" class="form-imput" required />
+
+        <input class="form-btn" name="submit" type="submit" value="Registrarse" />
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
